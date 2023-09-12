@@ -1,3 +1,5 @@
+/* GLOBAL STYLE */
+
 :root {
   --bg-body: hsl(0, 0%, 8%);
   --bg-body2: hsl(0, 0%, 14%);
@@ -16,4 +18,13 @@
   --fs-20: 1.25rem;
   --container: 69.375rem;
   --transition: 250ms ease-in-out;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -100000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }

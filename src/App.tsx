@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.scss';
+import Main from './components/main/Main';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
 
 const App: React.FC = () => {
   return (
     <>
+      <Header />
+      <Main />
+      <Footer />
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
       totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
