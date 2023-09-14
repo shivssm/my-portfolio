@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <div className="wrapper">
         <nav className='header__nav'>
           <a href="/" className="header__home">
-            adamkeyes
+            shivshankarmistry
             <span className='visually-hidden'>(to home page)</span>
           </a>
           <a href="" className="header__social">
