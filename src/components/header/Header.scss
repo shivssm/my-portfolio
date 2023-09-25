@@ -1,6 +1,8 @@
 @import './../../assets/style/style.scss';
 
 .header {
+  position: relative;
+  z-index: 1;
   margin-top: 20px;
 }
 
@@ -39,6 +41,11 @@
 }
 
 @media (min-width: 37.5em) {
+  .header {
+    margin-top: 30px;
+    margin-bottom: 90px;
+  }
+
   .header__nav {
     justify-content: flex-start;
     align-items: center;
@@ -49,5 +56,16 @@
   .header__home {
     flex: 1;
     margin-inline-end: auto;
+  }
+}
+
+@media (min-width: 62.5em) {
+  .header {
+    margin-top: 40px;
+    margin-bottom: 127px;
+  }
+
+  .header__nav {
+    padding-right: 30px;
   }
 }
